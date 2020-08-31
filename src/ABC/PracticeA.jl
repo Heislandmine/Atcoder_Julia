@@ -1,0 +1,5 @@
+a = parse.(Int, readline())
+b, c = parse.(Int, split(readline()))
+s = readline()
+ans = sum((a, b, c))
+println(ans," ", s)
